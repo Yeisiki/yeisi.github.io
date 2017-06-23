@@ -27,9 +27,12 @@ body {
 .navigationBar ul li {
    padding: 25px;
 }
-.navigationBar ul li a {
+a {
   text-decoration: none;
   color: #D7120A;
+}
+a:hover {
+  color: #F9BE02;
 }
 #welcome-section {
   height: 100vh;
@@ -68,7 +71,4 @@ body {
 }
 #contact a:link {
   color: #F53240;
-}
-a:hover {
-  color: #F9BE02;
 }
