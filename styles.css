@@ -27,7 +27,7 @@ body {
 .navigationBar ul li {
    padding: 25px;
 }
-a {
+.navigationBar ul li a {
   text-decoration: none;
   color: #D7120A;
 }
@@ -66,7 +66,7 @@ a {
   text-align: center;
   padding: 20px 0;
 }
-a:link {
+#contact a:link {
   color: #F53240;
 }
 a:hover {
