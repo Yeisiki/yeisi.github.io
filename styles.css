@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Poppins');
+* {
+  box-sizing: border-box;
+  margin: auto;
+}
+body {
+  font-family: Oswald, Sans Serif;
+  color: #403E39;
+}
+.navigationBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+.navigationBar ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden; 
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #FFFA9A;
+  justify-content: flex-end;
+}
+.navigationBar ul li {
+   padding: 25px;
+}
+a {
+  text-decoration: none;
+  color: #D7120A;
+}
+#welcome-section {
+  height: 100vh;
+  background-color:  #FFFA9A;
+  position: relative;
+  padding-top: 150px;
+}
+#welcome-section h1 {
+  padding-top: 200px;
+  color: #403E39;
+  text-align: center;
+}
+#welcome-section p {
+  font-family: Poppins;
+  text-align: center;
+  color: #403E39;
+}
+#projects {
+  text-align: center;
+  padding: 20px 0;
+}
+.project-tile {
+  padding-top: 20px;
+
+}
+.project-tile img {
+  width: 35vw;
+  border: 1px solid #555;
+  padding: 5px;
+  margin: 0 10px 10px 0;
+}
+#contact {
+  background-color: #F5A36C;
+  text-align: center;
+  padding: 20px 0;
+}
