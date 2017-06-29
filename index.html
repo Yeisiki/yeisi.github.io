@@ -5,46 +5,75 @@
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
   </head>
-  <body>
+ <body>
 <header class="navigationBar" id="navbar">
   <ul>
-    <li><a href="#welcome-section">About</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a class="scroll" href="#welcome-section">About</a></li>
+    <li><a class="scroll" href="#projects">Projects</a></li>
+    <li><a class="scroll" href="#resume">Experience</a></li>
+    <li><a class="scroll" href="#contact">Contact</a></li>
   </ul>
 </header>
+  <div id="headerClearance"></div>
   <div id="welcome-section">
-    <h1>Yeisi Ileczko</h1>
-    <p>librarian & aspiring web-developer</p>
+    <h1 class="anchorJump">Yeisi Ileczko</h1>
+    <h3>librarian & aspiring web-developer</h3>
+    <p>I'm one of those people that loves being helpful. I enjoy learning, I seek out challenges. I try to find solutions. I can be tenacious and relentless in doing so but I also know when to ask for help and encourage different perspectives from others. I love the thrill of finally solving a problem that initially seems so daunting. I think this is why I'm drawn to programming. Some of my other interests include: studying French language and history, enjoying beautiful works of art, finding that perfect cup of coffee, and raising my amazingly curious son with my amazingly wonderful husband.</p>
   </div>
   
   <div id="projects">
-    <h1>Check out my projects</h1>
+    <h1 class="anchorJump">Check out my projects</h1>
     <div class="project-tile">
       <a href="https://codepen.io/yeisiki/full/ZKErra/" target="_blank">
       <img id="project1" src="http://res.cloudinary.com/deww65d05/image/upload/c_fill,g_north_west,h_750,w_900/v1495812897/Product_Landing_Page_u5hkle.png"></a>
    <a href="https://codepen.io/yeisiki/full/bWbGEv/" target="_blank"> 
      <img id="project2" src="http://res.cloudinary.com/deww65d05/image/upload/c_scale,h_750,w_900/v1495813298/Tribute_Page_w3huuf.png">
       </a>
-      <a href="https://codepen.io/yeisiki/full/WpgarR/" target="_blank"><img id="project3" src="http://res.cloudinary.com/deww65d05/image/upload/c_scale,h_750,w_900/v1495813662/Library_Survey_upatzq.png">
+      <a href="https://codepen.io/yeisiki/full/WpgarR/" target="_blank"><img id="project3" src="http://res.cloudinary.com/deww65d05/image/upload/c_thumb,g_face,h_900,w_750/v1495813662/Library_Survey_upatzq.png">
       </a>
-      <img src="http://res.cloudinary.com/deww65d05/image/upload/c_scale,h_750,w_900/v1496164307/coming-soon-2070393_1920_eaoxku.png">
-      <img src="http://res.cloudinary.com/deww65d05/image/upload/c_scale,h_750,w_900/v1496164307/coming-soon-2070393_1920_eaoxku.png">
-      <img src="http://res.cloudinary.com/deww65d05/image/upload/c_scale,h_750,w_900/v1496164307/coming-soon-2070393_1920_eaoxku.png">
+      <a href="#">
+      <img id="mockups" src="http://res.cloudinary.com/deww65d05/image/upload/c_thumb,g_north_west,h_900,w_750/v1498492910/Sidebar_Mockup_Final_ir1lvv.png">
+      </a>
     </div>
-  
   </div>
-  
+  <div id="resume">
+    <h1 class="anchorJump">Professional Experience</h1>
+    <h3 class="resHeadings">Education</h3>
+    <p class="resTitles">Long Island University, MLIS, 2012</p>
+    <p class="resTitles">New York University, MA, 2012</p>
+    <p class="resTitles">Rutgers University, BA, 2010</p>
+    <hr>
+    <h3 class="resHeadings">Skills</h3>
+    <p class="resTitles"><strong>Web, Information, & Software</strong></p>
+    <ul class="resTitles">
+      <li>Familiarity with HTML, CSS, WordPress, Drupal, and Usability Testing</li>
+<li>Highly proficient in Microsoft Office Suite (Excel, PowerPoint, Word, Outlook), Google tools (Drive, Calendar)</li>
+<li>Proficient in Sierra ILS, FileMaker Pro, Microsoft Access, Extensis Portfolio and Adobe Photoshop</li>
+      <li>Proficient in digital asset management systems and digital image capture</li>
+<li>Library of Congress Authorities and Classification, reference services, and instructional support</li>
+    </ul>
+<p class="resTitles"><strong>Natural Languages</strong></p>
+    <ul class="resTitles">
+      <li>Spanish (speaking, reading, writing)</li>
+      <li>French (speaking, reading, writing)</li>
+    </ul>
+    <hr>
+    <h3 class="resHeadings">Professional Experience</h3>
+    <p class="resTitles">Web Development & Reference Librarian / Mount Saint Mary's University, 2017-Present</p>
+    <p class="resTitles">Archives Manager / EISP, 2014-2016</p>
+    <p class="resTitles">Information Architect / UCLA (HAPI), 2013-2014</p>
+  </div>
   <div id="contact">
-    <h1>Reach out</h1>
-    <a href="#"><i class="fa fa-envelope-square" style="font-size: 48px"></i></a>
-    <a href="#"><i class="fa fa-linkedin-square" style="font-size: 48px"></i></a>
-    <a href="#"><i class="fa fa-github-alt" style="font-size: 48px"></i></a>
-    <a href="#"><i class="fa fa fa-free-code-camp" style="font-size: 48px"></i></a>
-  </div>
+    <h1 class="anchorJump">Let's chat!</h1>
+    <a href="mailto:yileczko@gmail.com" target="_blank"><i class="fa fa-envelope-square" style="font-size: 48px"></i></a>
+    <a href="https://www.linkedin.com/in/yeisi" target="_blank"><i class="fa fa-linkedin-square" style="font-size: 48px"></i></a>
+    <a id="profile-link" href="https://github.com/Yeisiki" target="_blank"><i class="fa fa-github-alt" style="font-size: 48px"></i></a>
+    <a href="https://forum.freecodecamp.com/u/yeisiki" target="_blank"><i class="fa fa fa-free-code-camp" style="font-size: 48px"></i></a>
   </div>
   
   <footer>
+    <p>Created by Yeisi</p>
+    <small>&copy 2017</small>
   </footer>
 </body>
 </html>
