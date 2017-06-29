@@ -84,6 +84,7 @@ li a:visited {
   flex-wrap: wrap;
   justify-content: center;
  
+ 
 }
 img {
   margin-bottom: 20px;
@@ -199,4 +200,6 @@ footer {
   #contact {
     min-height: 100vh;
   }
+  .flexContainer {
+    flex-direction: row;
 }
