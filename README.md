@@ -6,6 +6,6 @@ https://github.com/Yeisiki/
 My Github Pages repo can be found at:  
 https://github.com/Yeisiki/yeisiki.github.io/
 
-And, soon, you can see my customized homepage at:
+You can see my customized homepage at:
 
-http://yeiski.github.io/
+http://yeisiki.github.io/
