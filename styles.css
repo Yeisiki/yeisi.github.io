@@ -161,6 +161,14 @@ hr {
   margin-left: 70px;
   margin-right: 70px;
 }
+h1 a {
+  text-decoration: none;
+  color: #F0535D;
+}
+h1 a:hover {
+  color: #5DBC9C;
+  text-decoration: none;
+}
 #contact {
   background-color: #FBF3E7;
   text-align: center;
