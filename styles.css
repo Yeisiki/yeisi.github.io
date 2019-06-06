@@ -169,6 +169,15 @@ h1 a:hover {
   color: #5DBC9C;
   text-decoration: none;
 }
+h1 a:link, a:active {
+  text-decoration: none;
+}
+h1 a:active {
+  color: #A9A9A8;
+}
+h1 a:visited {
+  color: #F0535D;
+}
 #contact {
   background-color: #FBF3E7;
   text-align: center;
