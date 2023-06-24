@@ -8,4 +8,4 @@ https://github.com/Yeisiki/yeisiki.github.io/
 
 You can see my customized homepage at:
 
-http://yeisi.github.io/
+http://yeisiki.github.io/
